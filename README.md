@@ -21,7 +21,8 @@ The following instructions are writen in Brazilian Portuguese.
 - [ ] 10. A partir do array de numbers, crie outro array com o dobro de valor de cada item
 - [ ] 11. Crie uma função que exiba as propriedades e valores de um objeto qualquer. Esta função deve ser capaz de exibir as propriedades e valores de qualquer objeto: (Dica: Você pode utilizar o objeto da questão 5)
 
-### 💜💜💜 Avançado (utilizar o arquivo **nodejs-repos.json**)
+### 💜💜💜 Avançado 
+Utilizar o arquivo **nodejs-repos.json**.
 - [ ] 12. Crie um array, com os seguintes campos: name, full_name, description, language, created_at, e exiba esses campos na tela.
 - [ ] 13. Crie um array com os repositórios que possuem o campo default_branch com o valor de master, mapeie somente os campos informados anteriormente, e exiba-os no console.
 - [ ] 14. Crie um array com os repositórios que possuam o campo language nulo, mapeie somente os campos informados anteriormente, e exiba-os no console.
@@ -33,8 +34,8 @@ The following instructions are writen in Brazilian Portuguese.
   - [ ] a. Crie uma constante do tipo Array. (Esse array será uma lista com objetos que virão através das funções da letra B).
   - [ ] b. Crie uma constante do tipo objeto que possua 4 funções semelhantes as operações de: GET, POST, PUT, DELETE.
   - [ ] c. Crie toda a lógica de inserir, atualizar, deletar ou buscar objetos dentro do array.
-  
-Obs1: O objeto a ser manipulado pode ser o mesmo da questão 5.
 
-Obs2: O GET pode ser feito por qualquer atributo disponível.
+#### Observações
+- Obs1: O objeto a ser manipulado pode ser o mesmo da questão 5.
+- Obs2: O GET pode ser feito por qualquer atributo disponível.
   

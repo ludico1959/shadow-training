@@ -1,6 +1,6 @@
 # SHADOW TRAINING 📚✏
 This is a list of exercices about arrays and objects in JavaScript.
-The following instructions are writen in Brazilian Portuguese.
+The following instructions are written in Brazilian Portuguese.
 
 ## Desafio 🥋
 ### 💚 Fácil

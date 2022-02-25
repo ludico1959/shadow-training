@@ -35,5 +35,6 @@ The following instructions are writen in Brazilian Portuguese.
   - [ ] c. Crie toda a lógica de inserir, atualizar, deletar ou buscar objetos dentro do array.
   
 Obs1: O objeto a ser manipulado pode ser o mesmo da questão 5.
+
 Obs2: O GET pode ser feito por qualquer atributo disponível.
   

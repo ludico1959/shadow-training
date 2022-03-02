@@ -238,22 +238,22 @@ const crud = {
   },
 };
 
-console.log(
-  crud.create({
-    firstName: "Fulano",
-    lastName: "de Tal",
-    email: "fulano@email.com",
-    tags: ["JS", "Python", "Java"],
-  })
-);
+// console.log(
+//   crud.create({
+//     firstName: "Fulano",
+//     lastName: "de Tal",
+//     email: "fulano@email.com",
+//     tags: ["JS", "Python", "Java"],
+//   })
+// );
 
 // Testando as funções do CRUD:
-console.log(
-  crud.create({
-    firstName: "Ciclano",
-    lastName: "de Tal",
-    email: "ciclano@email.com",
-    tags: ["Rust", "Python", "C"],
-  })
-);
-console.log(crud.read({ firstName: "Ciclano" }));
+// console.log(
+//   crud.create({
+//     firstName: "Ciclano",
+//     lastName: "de Tal",
+//     email: "ciclano@email.com",
+//     tags: ["Rust", "Python", "C"],
+//   })
+// );
+// // console.log(crud.read({ firstName: "Ciclano" }));

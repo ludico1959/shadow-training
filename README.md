@@ -15,11 +15,11 @@ The following instructions are written in Brazilian Portuguese.
   tags – Array de String)
   
 ### 💛💛 Médio
-- [ ] 6. A partir do array de numbers, crie outro array com os valores maiores do que 5.
-- [ ] 7. Utilizando o array de vegetais, encontre o primeiro item cujo tamanho da string seja igual a 8.
-- [ ] 9. Utilizando o método forEach do array, exiba o valor e o índice do array de vegetais.
-- [ ] 10. A partir do array de numbers, crie outro array com o dobro de valor de cada item
-- [ ] 11. Crie uma função que exiba as propriedades e valores de um objeto qualquer. Esta função deve ser capaz de exibir as propriedades e valores de qualquer objeto: (Dica: Você pode utilizar o objeto da questão 5)
+- [x] 6. A partir do array de numbers, crie outro array com os valores maiores do que 5.
+- [x] 7. Utilizando o array de vegetais, encontre o primeiro item cujo tamanho da string seja igual a 8.
+- [x] 9. Utilizando o método forEach do array, exiba o valor e o índice do array de vegetais.
+- [x] 10. A partir do array de numbers, crie outro array com o dobro de valor de cada item
+- [x] 11. Crie uma função que exiba as propriedades e valores de um objeto qualquer. Esta função deve ser capaz de exibir as propriedades e valores de qualquer objeto: (Dica: Você pode utilizar o objeto da questão 5)
 
 ### 💜💜💜 Avançado 
 Utilizar o arquivo **nodejs-repos.json**.

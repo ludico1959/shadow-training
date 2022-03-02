@@ -133,3 +133,57 @@ repositoryArray.map((object) => {
 console.log(
   `Quantidade de repositórios que possuem o campo license como nulo: ${unlincensedCounter}`
 );
+
+////////////////////////////////////////////////////////
+// 16 (AVANÇADO)
+console.log("\n16)____________________________");
+let repositoryArrayFiltered04 = repositoryArray.map((object) => {
+  if (object.license) {
+    if (object.license.key === "mit") {
+      const { name, full_name, description, language, created_at, license } =
+        object;
+      return {
+        name,
+        full_name,
+        description,
+        language,
+        created_at,
+        license_url: license.url,
+      };
+    }
+  }
+});
+
+repositoryArrayFiltered04 = repositoryArrayFiltered04.filter(
+  (element) => element !== undefined
+);
+// console.log(repositoryArrayFiltered04);
+
+////////////////////////////////////////////////////////
+// 17 (AVANÇADO)
+console.log("\n17)____________________________");
+const languages = ["CSS", "Python"];
+
+let repositoryArrayFiltered05 = repositoryArray.map((object) => {
+  if (languages.includes(object.language)) {
+    const { name, full_name, language, has_issues, has_projects } = object;
+    return { name, full_name, language, has_issues, has_projects };
+  }
+});
+
+repositoryArrayFiltered05 = repositoryArrayFiltered05.filter(
+  (element) => element !== undefined
+);
+console.log(repositoryArrayFiltered05);
+
+////////////////////////////////////////////////////////
+// 18 (AVANÇADO)
+console.log("\n18)____________________________");
+let repositoryArrayFiltered06 = repositoryArray.map((object) => {
+  if (object.forks < 50) return object;
+});
+
+repositoryArrayFiltered06 = repositoryArrayFiltered06.filter(
+  (element) => element !== undefined
+);
+console.log(repositoryArrayFiltered06);

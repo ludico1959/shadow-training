@@ -4,11 +4,11 @@ The following instructions are written in Brazilian Portuguese.
 
 ## Desafio 🥋
 ### 💚 Fácil
-- [ ] 1. Crie um array chamado numbers com os números de 0 a 5 e depois adicione a este mesmo array os valores 6, 7, 8, e 9.
-- [ ] 2. Crie um array de vegetais com os seguintes valores: 'Repolho', 'Nabo', 'Rabanete', 'Cenoura' e exiba o primeiro e último elemento desse array, e o seu tamanho.
-- [ ] 3. Utilizando o array de vegetais, exiba o índice do item 'Cenoura'.
-- [ ] 4. Percorra cada item do array de vegetais, utilizando o for, e exiba o seu índice e o valor.
-- [ ] 5. Crie uma função que receba 4 parametros de entrada, e retorne um objeto com esses parametros como atributos.
+- [x] 1. Crie um array chamado numbers com os números de 0 a 5 e depois adicione a este mesmo array os valores 6, 7, 8, e 9.
+- [x] 2. Crie um array de vegetais com os seguintes valores: 'Repolho', 'Nabo', 'Rabanete', 'Cenoura' e exiba o primeiro e último elemento desse array, e o seu tamanho.
+- [x] 3. Utilizando o array de vegetais, exiba o índice do item 'Cenoura'.
+- [x] 4. Percorra cada item do array de vegetais, utilizando o for, e exiba o seu índice e o valor.
+- [x] 5. Crie uma função que receba 4 parametros de entrada, e retorne um objeto com esses parametros como atributos.
   (Firstname - String,
   lastname - String,
   email - String,

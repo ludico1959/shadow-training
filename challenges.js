@@ -77,3 +77,59 @@ function showObject(object) {
 }
 
 showObject(person01);
+
+////////////////////////////////////////////////////////
+// 12 (AVANÇADO)
+console.log("\n12)____________________________");
+const repositoryArray = require("./nodejs-repos.json");
+
+let repositoryArrayFiltered01 = repositoryArray.map((object) => {
+  const { name, full_name, description, language, created_at } = object;
+  return { name, full_name, description, language, created_at };
+});
+repositoryArrayFiltered01 = repositoryArrayFiltered01.filter(
+  (element) => element !== undefined
+);
+// console.log(repositoryArrayFiltered01);
+
+////////////////////////////////////////////////////////
+// 13 (AVANÇADO)
+console.log("\n13)____________________________");
+let repositoryArrayFiltered02 = repositoryArray.map((object) => {
+  if (object.default_branch === "master") {
+    const { name, full_name, description, language, created_at } = object;
+    return { name, full_name, description, language, created_at };
+  }
+});
+
+repositoryArrayFiltered02 = repositoryArrayFiltered02.filter(
+  (element) => element !== undefined
+);
+// console.log(repositoryArrayFiltered02);
+
+////////////////////////////////////////////////////////
+// 14 (AVANÇADO)
+console.log("\n14)____________________________");
+let repositoryArrayFiltered03 = repositoryArray.map((object) => {
+  if (!object.language) {
+    const { name, full_name, description, language, created_at } = object;
+    return { name, full_name, description, language, created_at };
+  }
+});
+
+repositoryArrayFiltered03 = repositoryArrayFiltered03.filter(
+  (element) => element !== undefined
+);
+// console.log(repositoryArrayFiltered03);
+
+////////////////////////////////////////////////////////
+// 15 (AVANÇADO)
+console.log("\n15)____________________________");
+let unlincensedCounter = 0;
+repositoryArray.map((object) => {
+  if (!object.license) unlincensedCounter++;
+});
+
+console.log(
+  `Quantidade de repositórios que possuem o campo license como nulo: ${unlincensedCounter}`
+);

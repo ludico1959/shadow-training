@@ -23,19 +23,19 @@ The following instructions are written in Brazilian Portuguese.
 
 ### 💜💜💜 Avançado 
 Utilizar o arquivo **nodejs-repos.json**.
-- [ ] 12. Crie um array, com os seguintes campos: name, full_name, description, language, created_at, e exiba esses campos na tela.
-- [ ] 13. Crie um array com os repositórios que possuem o campo default_branch com o valor de master, mapeie somente os campos informados anteriormente, e exiba-os no console.
-- [ ] 14. Crie um array com os repositórios que possuam o campo language nulo, mapeie somente os campos informados anteriormente, e exiba-os no console.
-- [ ] 15. Exiba a quantidade de repositórios que possuam o campo license como nulo.
-- [ ] 16. Crie um array com os repositórios que possuam a license mit, mapeie os campos informados anteriormente, mais a url da licença, e exiba-os no console.
-- [ ] 17. Crie um array com os repositórios que possuam o campo language igual a CSS ou Python mapeie os campos name, full_name, language, has_issues, has_projects.
-- [ ] 18. Crie um array com os repositórios que tenham menos de 50 forks.
+- [x] 12. Crie um array, com os seguintes campos: name, full_name, description, language, created_at, e exiba esses campos na tela.
+- [x] 13. Crie um array com os repositórios que possuem o campo default_branch com o valor de master, mapeie somente os campos informados anteriormente, e exiba-os no console.
+- [x] 14. Crie um array com os repositórios que possuam o campo language nulo, mapeie somente os campos informados anteriormente, e exiba-os no console.
+- [x] 15. Exiba a quantidade de repositórios que possuam o campo license como nulo.
+- [x] 16. Crie um array com os repositórios que possuam a license mit, mapeie os campos informados anteriormente, mais a url da licença, e exiba-os no console.
+- [x] 17. Crie um array com os repositórios que possuam o campo language igual a CSS ou Python mapeie os campos name, full_name, language, has_issues, has_projects.
+- [x] 18. Crie um array com os repositórios que tenham menos de 50 forks.
 - [ ] 19. Considere os seguintes critérios:
   - [ ] a. Crie uma constante do tipo Array. (Esse array será uma lista com objetos que virão através das funções da letra B).
   - [ ] b. Crie uma constante do tipo objeto que possua 4 funções semelhantes as operações de: GET, POST, PUT, DELETE.
   - [ ] c. Crie toda a lógica de inserir, atualizar, deletar ou buscar objetos dentro do array.
 
-#### Observações
+#### Observações para o desafio 19:
 - Obs1: O objeto a ser manipulado pode ser o mesmo da questão 5.
 - Obs2: O GET pode ser feito por qualquer atributo disponível.
   

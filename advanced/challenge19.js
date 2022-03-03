@@ -68,14 +68,14 @@ const crud = {
 
 ///////////////////////////////////////////
 // CREATE
-console.log(
-  crud.create({
-    firstName: "Fulano",
-    lastName: "de Tal",
-    email: "fulano@email.com",
-    tags: ["JS", "Python", "Java"],
-  })
-);
+// console.log(
+//   crud.create({
+//     firstName: "Fulano",
+//     lastName: "de Tal",
+//     email: "fulano@email.com",
+//     tags: ["JS", "Python", "Java"],
+//   })
+// );
 
 // console.log(
 //   crud.create({
@@ -92,7 +92,7 @@ console.log(
 
 ///////////////////////////////////////////
 // UPDATE
-console.log(crud.update(0, { firstName: "Aucides" }));
+// console.log(crud.update(0, { firstName: "Aucides" }));
 
 ///////////////////////////////////////////
 // DELETE

@@ -3,7 +3,7 @@ This is a list of exercices about arrays and objects in JavaScript.
 The following instructions are written in Brazilian Portuguese.
 
 ## Desafio 🥋
-### 💚 Fácil
+### 🟢 Fácil
 - [x] 1. Crie um array chamado numbers com os números de 0 a 5 e depois adicione a este mesmo array os valores 6, 7, 8, e 9.
 - [x] 2. Crie um array de vegetais com os seguintes valores: 'Repolho', 'Nabo', 'Rabanete', 'Cenoura' e exiba o primeiro e último elemento desse array, e o seu tamanho.
 - [x] 3. Utilizando o array de vegetais, exiba o índice do item 'Cenoura'.
@@ -14,14 +14,14 @@ The following instructions are written in Brazilian Portuguese.
   email - String,
   tags – Array de String)
   
-### 💛💛 Médio
+### 🟡🟡 Médio
 - [x] 6. A partir do array de numbers, crie outro array com os valores maiores do que 5.
 - [x] 7. Utilizando o array de vegetais, encontre o primeiro item cujo tamanho da string seja igual a 8.
 - [x] 9. Utilizando o método forEach do array, exiba o valor e o índice do array de vegetais.
 - [x] 10. A partir do array de numbers, crie outro array com o dobro de valor de cada item
 - [x] 11. Crie uma função que exiba as propriedades e valores de um objeto qualquer. Esta função deve ser capaz de exibir as propriedades e valores de qualquer objeto: (Dica: Você pode utilizar o objeto da questão 5)
 
-### 💜💜💜 Avançado 
+### 🟣🟣🟣 Avançado 
 Utilizar o arquivo **nodejs-repos.json**.
 - [x] 12. Crie um array, com os seguintes campos: name, full_name, description, language, created_at, e exiba esses campos na tela.
 - [x] 13. Crie um array com os repositórios que possuem o campo default_branch com o valor de master, mapeie somente os campos informados anteriormente, e exiba-os no console.

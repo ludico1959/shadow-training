@@ -3,7 +3,10 @@ const database = [];
 const crud = {
   create: function (person) {
     database.push(person);
-    return person;
+    return {
+      status: "success",
+      data: person,
+    };
   },
 
   read: function (properties) {
@@ -17,9 +20,17 @@ const crud = {
         else if (properties.tags === object.tags) return object;
       });
 
-      return filteredDatabase;
+      return {
+        status: "success",
+        results: filteredDatabase.length,
+        data: filteredDatabase,
+      };
     } else {
-      return database;
+      return {
+        status: "success",
+        results: database.length,
+        data: database,
+      };
     }
   },
 
@@ -38,23 +49,34 @@ const crud = {
     updatedPerson.tags = person.tags ? person.tags : updatedPerson.tags;
 
     database[index] = updatedPerson;
+
+    return {
+      status: "success",
+      result: database[index],
+    };
   },
 
   delete: function (index) {
     delete database[index];
+
+    return {
+      status: "success",
+      data: null,
+    };
   },
 };
 
-// console.log(
-//   crud.create({
-//     firstName: "Fulano",
-//     lastName: "de Tal",
-//     email: "fulano@email.com",
-//     tags: ["JS", "Python", "Java"],
-//   })
-// );
+///////////////////////////////////////////
+// CREATE
+console.log(
+  crud.create({
+    firstName: "Fulano",
+    lastName: "de Tal",
+    email: "fulano@email.com",
+    tags: ["JS", "Python", "Java"],
+  })
+);
 
-// Testando as funções do CRUD:
 // console.log(
 //   crud.create({
 //     firstName: "Ciclano",
@@ -63,4 +85,15 @@ const crud = {
 //     tags: ["Rust", "Python", "C"],
 //   })
 // );
-// // console.log(crud.read({ firstName: "Ciclano" }));
+
+///////////////////////////////////////////
+// READE
+// console.log(crud.read({ firstName: "Ciclano" }));
+
+///////////////////////////////////////////
+// UPDATE
+console.log(crud.update(0, { firstName: "Aucides" }));
+
+///////////////////////////////////////////
+// DELETE
+// console.log(crud.delete(0));
